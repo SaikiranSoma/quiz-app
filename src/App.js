@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+import Header from './Header';
 import './App.css';
-import DateCounter from './DateCounter';
+import Main from './Main';
 
 function App() {
   return (
-    <>
-       <DateCounter/>   
-    </>
+    <div className="app">
+      <Header/>
+      <Main className="main">
+        <p>1/15</p>
+        <p>Question</p>
+      </Main>
+    </div>
   );
 }
 
